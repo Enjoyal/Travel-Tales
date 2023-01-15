@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tales</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/776/776574.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6754e8608b.js" crossorigin="anonymous"></script>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+ 
+       
+
+    <!-- Navbar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand  text-white ms-1" href="#"><i class="fa-solid fa-person-hiking "></i> <i class="fa-solid fa-person-hiking fa-bounce"></i> Travel Tales </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-capitalize ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#adventures">Adventures</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      
+
+
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+
+        <!-- <div class="controls">
+            <span class="vid-btn" data-src="./images/nature1.mp4"></span>
+            <span class="vid-btn" data-src="./images/nature2.mp4"></span>
+            <span class="vid-btn" data-src="./images/nature3.mp4"></span>
+        </div> -->
+        <div class="video-container">
+            <video src="./images/nature3.mp4" loop autoplay muted>
+            </video>
+        </div>
+        <div class="content">
+            <h3>Travel More, Experience More</h3>
+            <p>Discover new places by travelling with us..</p>
+            <a href="" class="btn btn-outline-warning fw-bold col-2">Join Us</a>
+        </div>
+
+    </section>
+
+    <section class="recent" id="recent">
+        <div class="container text-center" id="latest-posts">
+            <h1 class="heading ">Recent Posts</h1>
+
+            <div class="card-group">
+                <div class="card m-3 p-2">
+                  <img height="250" src="./images/india.jpg" class="card-img-top rounded" alt="...">
+                  <div class="card-body">
+                  <a href="https://internationalyouthclub.org/manali/?gclid=Cj0KCQjwvZCZBhCiARIsAPXbajuK-VuMnvijusVqFkIBKsD_ISoTpQD1l-AP-mu5htqjwNKCuuGdSXUaAifTEALw_wcB"> <h5 class="card-title">Best places to vist in india</h5></a> 
+                    <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  </div>
+                </div>
+                <div class="card m-3 p-2">
+                  <img height="250" src="./images/boating.jpg" class="card-img-top rounded" alt="...">
+                  <div class="card-body">
+                   <a href="https://www.holidify.com/pages/boating-in-kerala-371.html"><h5 class="card-title">Feel boating experience</h5></a> 
+                    <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  </div>
+                </div>
+                <div class="card m-3 p-2">
+                  <img height="250" src="./images/paragliding.jpg" class="card-img-top rounded" alt="...">
+                  <div class="card-body">
+                    <a href="https://www.holidify.com/pages/paragliding-in-india-46.html"><h5 class="card-title">Experience feet beyond the land </h5></a>
+                    <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+<!-- gallery-section -->
+    <section id="destinations" class="gallery">
+      <div class="container text-center">
+          <h1 class="heading">Destinations</h1>
+
+          <div class="card-group  mt-5 pt-3">
+            
+              <div class="card">
+                
+                  
+                    <div class="hover-container">
+                      <div class="hover-content"><button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#taj">
+                        quick view
+                      </button></div>
+                    </div>
+
+                <img src="./images/taj.jpg" class="card-img-top  img1" style="height:100%" alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Tag Mahal, India</div>
+            
+                    
+                  <div class="img-btn container">
+                 
+                  </div>
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="taj" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Taj Mahal</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/49HTIoCccDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <!-- <img class="w-100" src="./images/taj.jpg" alt=""> -->
+                          <p class="text-start mt-2">The Taj Mahal is a perfect symmetrical planned building, with an emphasis of bilateral symmetry along a central axis on which the main features are placed. The building material used is brick-in-lime mortar veneered with red sandstone and marble and inlay work of precious/semi precious stones.
+                           <br> Owner: Shah Jahan
+                            <br> Function: Monument
+                          </p>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              
+                 
+                  <!-- <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                
+              </div>
+          
+
+           
+              <div class="card border-0 ">
+                <div class="hover-container">
+                  <div class="hover-content ">
+                    <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#india-gate">
+                        quick view
+                      </button>
+                  </div>
+                </div>
+                <img src="./images/india-gate.jpg" class="card-img-top  " alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i>India Gate, India</div>
+
+                
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="india-gate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">India Gate</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe class="w-100"  width="560" height="315" src="https://www.youtube.com/embed/1N0QZUfiTFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                          <!-- <img class="w-100" src="./images/india-gate.jpg" alt=""> -->
+                          <p class="text-start mt-2">India Gate, official name Delhi Memorial, originally called All-India War Memorial, monumental sandstone arch in New Delhi, dedicated to the troops of British India who died in wars fought between 1914 and 1919.
+                          </p>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                
+              </div>
+          
+            
+
+
+            
+            <div class="card">
+              <div class="hover-container">
+                <div class="hover-content container">
+                  <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#hampi">
+                       quick view
+                     </button>
+                   </div>
+              </div>
+                <img src="./images/img1-hampi.jpg" class="card-img-top " alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Humpi, India</div>
+
+
+
+                 
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="hampi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Humpi</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe class="w-100"  width="560" height="315" src="https://www.youtube.com/embed/ChchmDc_OhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <!-- <img class="w-100" src="./images/img1-hampi.jpg" alt=""> -->
+                          <p class="text-start mt-2">Hampi is located in hilly terrain formed by granite boulders The Hampi monuments comprising the UNESCO world heritage site are a subset of the wider-spread Vijayanagara ruins. Almost all of the monuments were built between 1336 and 1570 CE during the Vijayanagara rule.
+                            <br> Location: Hampi (town), Vijayanagara district, ...
+                            <br> Includes: Virupaksha Temple
+                            <br> Area: 4,187.24 ha
+                          </p>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+               
+              </div>
+            
+
+            
+              <div class="card">
+                <div class="hover-container">
+                  <div class="hover-content container">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#munnar">
+                     quick view
+                   </button>
+                   </div>
+                </div>
+                <img src="./images/munnar.jpg" class="card-img-top  img4" alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Munnar, India</div>
+
+               
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="munnar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Munnar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/0aG0TvZnOaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <!-- <img class="w-100" src="./images/munnar.jpg" alt=""> -->
+                      <p class="text-start mt-2">Munnar is a town and hill station in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres (5,200 ft) above mean sea level, in the Western Ghats mountain range.
+                        <br> District: Idukki
+                        <br> Named for: Tea plantat
+                      </p>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+           
+          </div>
+
+          
+          <div class="card-group  ">
+
+              <div class="card">
+                <div class="hover-container">
+                  <div class="hover-content container">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#reo">
+                     quick view
+                   </button>
+                   </div>
+                </div>
+                <img class="card-img-top  img5" src="https://media.istockphoto.com/id/608540602/photo/aerial-panorama-of-botafogo-bay-rio-de-janeiro.jpg?s=612x612&w=0&k=20&c=9vsK_9r4ldoLyfS6oLnUbvpQOgYCfzr4xCZ1-YFNJZo="  alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Reo De Janeiro, Brazil</div>
+
+                
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="reo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Reo De Janeiro</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/uhyYZM0lbwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      <p class="text-start mt-2">Rio de Janeiro is the second largest city in Brazil, on the South Atlantic coast. Rio is famous for its breathtaking landscape, its laid-back beach culture and its annual carnival. The "Carioca Landscapes between the Mountain and the Sea" has been inscribed on the UNESCO World Heritage list.
+                      </p>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+           
+
+            
+              <div class="card">
+                <div class="hover-container">
+                  <div class="hover-content container">
+                    <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#bondi">
+                        quick view
+                      </button>
+                  </div>
+                </div>
+                <img src="https://strongcitiesnetwork.org/en/wp-content/uploads/sites/5/2017/11/Berlin-Nikolaiviertel-scaled.jpg" class="card-img-top " alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Berlin, Germany</div>
+
+               
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="bondi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Berlin</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/PvU69worGyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                          
+                          <p class="text-start mt-2">Berlin, the capital city of Germany, is renowned for its exceptional range of landmarks, vibrant cultural scene and way of life that's somehow all go yet relaxed. In fact, the city is best known for its striking contrasts. Historical buildings stand alongside modern architecture as the past and present intermingle.
+                          </p>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                
+              </div>
+            
+
+              <div class="card">
+                <div class="hover-container">
+                  <div class="hover-content container">
+                    <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#berlin">
+                        quick view
+                      </button>
+                  </div>
+  
+                </div>
+                <img src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180301194244/Rome-Tile.jpg" class="card-img-top " alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i>Colosseum, Italy</div>
+
+                
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="berlin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Colosseum, Rome</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/e-x74MFiWkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <p class="text-start mt-2">The Colosseum is an amphitheatre built in Rome under the Flavian emperors of the Roman Empire. It is also called the Flavian Amphitheatre. It is an elliptical structure made of stone, concrete, and tuff, and it stands four stories tall at its highest point.
+                          </p>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+              </div>
+
+
+
+              <div class="card">
+                <div class="hover-container">
+                  <div class="hover-content container">
+                    <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#khwaeng">
+                      quick view
+                    </button> 
+                  </div>
+                </div>
+                <img class="card-img-top  img8" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/19/1e/e5/fuvamulah.jpg?w=500&h=300&s=1"  alt="...">
+                <div class="img-text"><i class="fas fa-map-marker-alt"></i> Fuvahmulah, Maldives</div>
+
+               
+
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="khwaeng" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Microprocessor</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <iframe class="w" width="560" height="315" src="https://www.youtube.com/embed/w5tX_-A73A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p class="text-start mt-2">Fuvahmulah (Dhivehi: ފުވައްމުލައް) is an island (atoll) in the Maldives. It is under Maldives' administrative divisions of Gnaviyani Atoll or Nyaviyani Atoll. The inhabitants speak a distinctive form of the Dhivehi language, locally known as "fuvahmulaki baha.”
+                        </p>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+          </div>
+
+
+          </div>    
+        </div>
+    </section>
+
+
+    <!-- Quotes-section -->
+    <section class="Quotes  ">
+      <div class="container text-center">
+          <!-- <h1 class="text-decoration-underline">Gallery</h1> -->
+          <div class="row">
+            <div class="col-6">
+              <div class="card">
+                <img src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk=" alt="" style="height: 100%;">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="quote p-5">
+                <p class="ms-5">"Travel is the only thing you can buy that makes you richer. It opens your eyes to new cultures, perspectives, and experiences, and creates memories that will last a lifetime. So pack your bags, grab your passport, and set out on an journey that will change you forever."
+
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+      </div>
+    </section>  
+
+
+     <!-- Adventure-section -->
+     <section class="adventure mt-5" id="adventures">
+      
+      <div class="container text-center">
+          <h1 class="heading ">Adventures</h1>
+      </div>
+
+      <div class="card-group mt-5">
+
+          <div class="card rounded">
+            <div class="img-container">
+              <img class="card-img-top rounded-circle" src="https://img.freepik.com/free-photo/couple-together-kayaking-river_1303-16040.jpg" alt="">
+            
+            <div class="img-btn container">
+                <a href="https://youtu.be/MY5oglUpLqo" type="button" class="btn-warning" >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+          </div>
+            <div class="card-body">
+
+              <div class="content">
+                <h5 class="card-title">Kayaking</h5>
+                <p class="card-text">Kayaking involves the use of a kayak, a narrowboat with a double-blade paddle to move on water. The driver is supposed to navigate through the waterways by sitting face-forward and marching ahead.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        
+
+        <div class="card rounded">
+          <div class="img-container">
+            <img class="card-img-top rounded-circle" src="https://media.istockphoto.com/id/547436912/photo/bungee-jumping.jpg?s=612x612&w=0&k=20&c=yGAdtv_o5h9uzsLhHFxU9al_H-3EzgSCuqRiJ9Hq08A=" alt="">
+            <div class="img-btn container">
+              <a href="https://youtu.be/l9m4cW2yxy0" type="button" class="btn-warning" >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+          </div>
+          </div>
+            <div class="card-body">
+
+              <div class="content">
+                <h5 class="card-title">Bungee Jump</h5>
+                <p class="card-text">Bungee jumping is an action-filled recreational activity that involves head-first jumping from a tall structure with an elastic cord attached into participants' feet. That tall structure can be a building, crane, bridge or even a helicopter.</p>
+              </div>
+
+            </div>
+          </div>
+       
+
+
+      <div class="card rounded">
+        <div class="img-container">
+            <img class="card-img-top rounded-circle" src="https://www.makemytrip.com/travel-guide/media/dg_image/sonmarg/Whitewater-Rafting-new.jpg" alt="">
+            <div class="img-btn container">
+              <a href="https://youtu.be/uNuzUt70Okw" type="button" class="btn-warning" >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+          </div>
+        </div>  
+            <div class="card-body">
+
+              <div class="content">
+                <h5 class="card-title">Rafting</h5>
+                <p class="card-text">Rafting is a sport in which rafters use an inflatable raft to race with other teams. The team that reaches the destination first wins the race.The racing is done on white water or rough water of different degrees.</p>
+              </div>
+
+            </div>
+          </div>
+
+
+      
+      <div class="card rounded">
+        <div class="img-container">
+            <img class="card-img-top rounded-circle" src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dHJla2tpbmd8ZW58MHx8MHx8&w=1000&q=80" alt="">
+            <div class="img-btn container">
+              <a href="https://youtu.be/rqMPaVT3zeM" type="button" class="btn-warning" >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+          </div>
+        </div>
+            <div class="card-body">
+
+              <div class="content">
+                <h5 class="card-title">Trekking</h5>
+                <p class="card-text">Trekking is an outdoor activity of walking for more than a day. It is a form of walking, undertaken with the specific purpose of exploring and enjoying the scenery. Trekking could be a motive, an aim, a mission, a social gathering.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+     
+     </section>
+
+
+      <!-- Contact-->
+      <section class="contact" id="contact">
+        <div class="container">
+            <div class="row ">
+                <div class="col-8 mx-auto text-center">
+                    <i class="fa fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Subscribe to receive updates</h2>
+                   
+                    <form class="form" id="contactForm" >
+                        <!-- Email address -->
+                        <div class="row input-group-newsletter">
+                            <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter your email address..." /></div>
+                            <div class="col-auto"><button class="btn btn-warning text-light mt-2 p-2"  type="submit">Notify Me!</button>
+                            </div>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+  <footer class="bg-dark text-center text-white">
+
+      <!-- <h3 class="title">contact info</h3> -->
+    <div class="row">
+
+      <div class="col-4 text-start mt-4 ps-5 pt-4">
+          <h3 class="text-lowercase"><i class="fas fa-envelope "> </i> abcd@gmail.com</h3>
+          <h3><i class="fas fa-phone"> </i> +91-8304099044</h3>
+          <h3><i class="fa-solid fa-location-dot"></i> Ernakulam, kerala - 683579.</h3>
+      </div>
+
+      <div class="col-4 container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-warning btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+        </section>
+      
+      </div>
+
+      <div class="col-4"></div>
+
+    </div> 
+
+
+    
+    
+      <!-- Copyright -->
+      <div class="text-center p-3 copyright" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class=" text-decoration-none" href="#">Mad Traveller</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+</body>
+</html>

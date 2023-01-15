@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Neonderthaw&family=Notable&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Poppins:wght@300&family=Rubik+Beastly&family=Rubik+Bubbles&family=Sevillana&family=Titan+One&family=Wallpoet&display=swap');
+
+
+:root{
+    --orange:#ffa500;
+    /* background: rgba(255, 200, 0, 0.9); */
+
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  /* outline: none; */
+  text-decoration: none;
+  /* transition: all .2s linear; */
+}
+
+::selection{
+    background: var(--orange);
+    columns: #fff;
+}
+
+section{
+    padding:32px 9%;
+}
+
+.heading{
+    color: var(--orange);
+    font-size:60px;
+    text-transform: capitalize;
+    font-family: 'Neonderthaw', cursive;
+    /* font-family: 'Notable', sans-serif; */
+     /* font-family: 'Luxurious Script', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Pinyon Script', cursive; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Rubik Beastly', cursive; */
+    /* font-family: 'Rubik Bubbles', cursive; */
+    /* font-family: 'Sevillana', cursive; */
+    /* font-family: 'Titan One', cursive; */
+    /* font-family: 'Wallpoet', cursive; */
+    
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+
+}
+.row{
+    margin-top: 20px;
+}
+
+#btn{
+    margin-top: 5px;
+    font-weight: bold;
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color:rgba(51, 51, 51);
+    color: white;  
+    height: 75px;
+    z-index:1;
+
+}
+
+ nav .navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Roboto Slab", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: oblique;
+
+
+}
+nav .navbar-brand span{
+    font-family: "Roboto Slab", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+ nav .navbar-brand i{
+    font-size: 25px;
+    color: rgba(255, 200, 0, 0.9);
+}
+
+nav .navbar-brand .fa-bounce{
+    position: absolute;
+    left: 115px;
+    font-size: 25px;
+    opacity: 0;
+
+    /* display: none; */
+}
+nav .navbar-brand:hover i{
+    /* display: none; */
+    opacity: 0;
+
+}
+
+nav .navbar-brand:hover .fa-bounce{
+    opacity: 1;
+    /* display: block; */
+}
+
+
+
+#navbarResponsive{
+background-color: rgba(51, 51, 51, 0.75);
+width: 100%;
+    }
+
+ nav .collapse ul li a{
+    font-family: "Roboto Slab", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    margin-left:20px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0px;
+    transition: .5s;
+}
+
+ nav .collapse ul li a:hover{
+    color: var(--orange);
+  /* border-bottom: 1px solid var(--orange); */
+    transition: .5s;
+
+}
+
+
+.home{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.home .video-container video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home .content{
+    text-align:center;
+    color: #fff;
+}
+.home .content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-transform:uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+}
+
+.home .content p{
+    font-family: "Roboto Slab", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: italic;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--orange);
+    font-size: 30px;
+    padding:8px;
+}
+
+/* .home .controls{
+    padding: 16px;
+    border-radius:80px;
+    background-color: rgba(0,0,0,.7);
+    position: relative;
+    top:160px;
+
+
+}
+
+.home .controls .vid-btn{
+    height:32px;
+    width:32px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 8px;
+}
+
+.home .controls .vid-btn.active{
+    background-color: var(--orange);
+} */
+
+
+/* recent section */
+
+.recent .card-group a{
+    text-decoration: none;
+    color: #333; 
+}
+
+.recent .card-group a:hover{
+    color: var(--orange);
+}
+
+.recent .card-group .card{
+    transition: 0.5s;
+    border:0;
+   
+}
+
+.recent .card-group .card:hover{
+   scale: 1.1;
+}
+
+
+
+/* gallery section */
+ 
+
+
+.gallery .card-group .card{
+
+    border:0;
+    height: 180px;
+    margin-left: 30px;
+
+}
+.gallery .card-group .card .hover-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(255, 200, 0, 0.9); */
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.3s;
+}
+.gallery .card-group .card .hover-container i{
+    color: #fff;
+}
+
+.gallery .card-group .card .hover-container:hover{
+    opacity: 1;
+}
+
+
+
+.gallery .card-group .card .img1{
+    border-top-left-radius:10px;
+}
+
+.gallery .card-group .card .img4{
+    border-top-right-radius:10px;
+}
+.gallery .card-group .card .img5{
+    border-top-left-radius: 0;
+    border-bottom-left-radius:10px;
+}
+.gallery .card-group .card .img8{
+    border-top-left-radius: 0;
+    border-bottom-right-radius:10px;
+}
+
+.gallery .card-group .card img{
+    height: 100%;
+    
+}
+
+
+.gallery .card-group .card .img-text{
+    font-size: 16px;
+    font-weight: bold;
+    /* width: 100%; */
+    /* padding: 1rem; */
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+.gallery .card-group .card .img-btn{
+    
+    position: absolute;
+    bottom: 70px;
+    left:0;
+    /* padding-top: 120px; */
+    /* background: rgba(0, 0, 0, 0.3); */
+    visibility: hidden;
+    
+
+}
+
+.gallery .card-group .card:hover .img-btn{
+    
+    visibility: visible;
+    transition: .5s;
+    /* transition: visibility 0s, opacity 0.5s linear; */
+
+}
+
+.gallery .card-group .card  .btn{
+    background-color: #ffa500;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+
+}
+
+.gallery .card-group .card  .btn:hover{
+    background-color: #fff;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    
+}
+
+.gallery .card-group .card:hover{
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Quotes section */
+
+.Quotes{
+    /* background: rgb(210, 208, 208); */
+    margin-top: 100px;
+    background:#fbf8e5;
+    min-height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quotes .card{
+    margin-left: -10px;
+    width: 650px;
+    height: 450px;
+    border: 0;
+}
+
+.Quotes .quote p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    color: #f8be64;
+    /* color: rgb(51, 51, 51, 0.95); */
+    font-family: 'Pinyon Script', cursive;        /* font-style: italic; */
+    /* font-family:'Courier New', Courier, monospace; */
+}
+    
+
+/* Adventure section */
+.adventure .row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.adventure .card{
+    /* width: 270px;
+    height: 450px; */
+    margin: 30px;
+    align-items: center;
+    text-align: justify;
+    /* justify-items: center; */
+    border: none;
+    transition: .5s;
+}
+.adventure .card:hover{
+    background-color:#f8be64;
+    transition: .8s;
+
+}
+.adventure .card .card-title {
+    font-weight: bold;
+}
+.adventure .card:hover .card-title{
+    color: #fff;
+}
+
+.adventure .card .img-btn{
+
+    position: absolute;
+    top: 80px;
+    left: 112px;
+    /* background: rgba(0, 0, 0, 0.3); */
+
+    visibility: hidden;
+}
+
+.adventure .card .img-container:hover .img-btn{
+visibility: visible;
+}
+.adventure .card .img-container{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.adventure .card .img-btn a{
+   
+    font-size: 30px;
+    color: #fff;
+    transition: 0.5s;
+   
+}
+
+.adventure .card .img-btn a:hover{
+    color: var(--orange);
+}
+
+.adventure .card img{
+    transform: scale(.8);
+    width: 200px;
+    height: 200px;
+}
+.adventure .card h5{
+    color: #ffa500;
+    text-align: center;
+}
+.adventure .card p{
+    font-size: 14px;
+
+}
+
+
+
+/* contact */
+
+/* .contact {
+    background:#f4d293;
+}
+.contact .row .info h3 {
+    font-size: medium;
+}
+.contact .row form {
+    border: none;
+    background:#f4d293;
+}
+
+ .contact .row form .btn{
+
+    background-color: #ffa500;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    transition: .5s;
+ }
+
+ .contact .row form .btn:hover{
+    background-color: #fff;
+    border: 2px solid var(--orange);
+    color: var(--orange);
+ } */
+
+
+ .contact {
+    padding: 10rem 0;
+    background:#f4d293;
+  }
+  .contact form input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1);
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    /* text-transform: lowercase; */
+    letter-spacing: 0.15rem;
+    border: 0;
+  }
+  
+
+
+
+
+  /* footer */
+  footer .row .col-4  h3 i {
+    color: rgba(255, 200, 0, 1);
+    font-size: large;
+
+
+  }
+  footer .row .col-4  h3 {
+    line-height: 2px;
+    font-size: medium;
+}
+
+footer .row .col-4  h3 i:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+footer .copyright {
+    color: rgba(255, 200, 0, 1);
+    
+}
+footer .copyright a{
+    color: #fff;
+}
+footer .copyright a:hover{
+    color: rgba(255, 200, 0, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ @media(max-width:1200px){
+    /* .home{
+        padding: 1rem 4rem;
+    } */
+}
+@media(max-width:991px){
+   
+/* .adventure .card{
+    width: 270px;
+    height: 450px;
+  } */
+
+
+
+    }
